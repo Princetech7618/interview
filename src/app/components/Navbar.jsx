@@ -71,7 +71,7 @@ export default function Navbar() {
 
           </li>
 
-          <Link href="/about">
+          {/* <Link href="/about">
             <li className="hover:text-cyan-500 cursor-pointer duration-300">
               About
             </li>
@@ -81,7 +81,7 @@ export default function Navbar() {
             <li className="hover:text-cyan-500 cursor-pointer duration-300">
               Contact
             </li>
-          </Link>
+          </Link> */}
 
         </ul>
 
@@ -157,7 +157,7 @@ export default function Navbar() {
 
           </div>
 
-          <Link href="/about" onClick={() => setOpen(false)}>
+          {/* <Link href="/about" onClick={() => setOpen(false)}>
             <p className="hover:text-cyan-500 cursor-pointer duration-300">
               About
             </p>
@@ -167,7 +167,7 @@ export default function Navbar() {
             <p className="hover:text-cyan-500 cursor-pointer duration-300">
               Contact
             </p>
-          </Link>
+          </Link> */}
 
           <button className="mt-2 w-full py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-white font-medium duration-300 shadow-lg shadow-cyan-500/20">
             Get Started
