@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-cyan-400/10 bg-[#0B1120]">
+    <footer className="relative overflow-hidden border-t-2 border-cyan-400 bg-[#0B1120]">
 
       {/* Glow */}
       <div className="absolute left-0 bottom-0 w-72 h-72 bg-cyan-500/10 blur-[120px] rounded-full"></div>
@@ -26,12 +26,12 @@ export default function Footer() {
 
                  {/* Logo */}
    <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
-  <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+  <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-white">
     <Image
       src="/img/logo.jpeg"
       alt="Keyword AI"
-      width={40}
-      height={40}
+      width={100}
+      height={100}
       className="object-cover w-full h-full"
     />
   </div>
@@ -210,7 +210,7 @@ export default function Footer() {
 </div>
 
 {/* Bottom */}
-<div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
+<div className="pt-2 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-gray-500 text-xs sm:text-sm text-center md:text-left">
             © {new Date().getFullYear()} Keyword AI Solution.

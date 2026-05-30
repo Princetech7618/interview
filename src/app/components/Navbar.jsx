@@ -19,12 +19,12 @@ export default function Navbar() {
 
         {/* Logo */}
    <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
-  <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+  <div className="w-14 h-14 rounded-full overflow-hidden flex items-center justify-center bg-white">
     <Image
       src="/img/logo.jpeg"
       alt="Keyword AI"
-      width={40}
-      height={40}
+      width={100}
+      height={100}
       className="object-cover w-full h-full"
     />
   </div>
