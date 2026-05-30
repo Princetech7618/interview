@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -18,12 +18,20 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-10 py-4">
 
         {/* Logo */}
-        <Link href="/" onClick={() => setOpen(false)}>
-          <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
-            Kewyword AI
-          </h1>
-        </Link>
-
+   <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
+  <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+    <Image
+      src="/img/logo.jpeg"
+      alt="Keyword AI"
+      width={40}
+      height={40}
+      className="object-cover w-full h-full"
+    />
+  </div>
+  {/* <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
+    Kewyword AI
+  </h1> */}
+</Link>
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8 text-sm lg:text-base text-slate-700 font-medium">
 

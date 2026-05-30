@@ -5,6 +5,7 @@ import Coustumplan from "../../components/Coustumplan";
 import Developmentprocess from "../../components/Developmentprocess";
 import FAQSection from '../../components/FAQsection';
 import Contactform from '../../components/Contactform';
+import Map from '../../components/Map';
 function page() {
   return (
     <div>
@@ -14,6 +15,7 @@ function page() {
 <Developmentprocess />
 <FAQSection />
 <Contactform />
+<Map />
     </div>
   )
 }

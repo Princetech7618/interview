@@ -1,5 +1,6 @@
 "use client";
-
+import Link from "next/link";
+import Image from "next/image";
 import {
   Mail,
   Phone,
@@ -23,9 +24,21 @@ export default function Footer() {
           {/* Brand */}
           <div>
 
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-cyan-200 bg-clip-text text-transparent">
-              Kewyword AI
-            </h2>
+                 {/* Logo */}
+   <Link href="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
+  <div className="w-10 h-10 rounded-full overflow-hidden flex items-center justify-center bg-white">
+    <Image
+      src="/img/logo.jpeg"
+      alt="Keyword AI"
+      width={40}
+      height={40}
+      className="object-cover w-full h-full"
+    />
+  </div>
+  {/* <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
+    Kewyword AI
+  </h1> */}
+</Link>
 
             <p className="text-gray-400 mt-5 leading-relaxed text-sm sm:text-base">
               AI-powered marketing solutions helping businesses scale smarter,

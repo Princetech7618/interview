@@ -111,7 +111,7 @@ export default function ContactForm() {
 
             Let’s Build Something
 
-            <span className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent">
               {" "}Amazing Together
             </span>
 
@@ -271,7 +271,7 @@ export default function ContactForm() {
             {/* Form Heading */}
             <div className="mb-6">
 
-              <p className="text-cyan-600 text-sm font-medium text-center uppercase tracking-[3px]">
+              <p className="text-cyan-500 text-sm font-medium text-center uppercase tracking-[3px]">
                 Send Message
               </p>
 
