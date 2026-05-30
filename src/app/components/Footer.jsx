@@ -192,8 +192,25 @@ export default function Footer() {
 
         </div>
 
-        {/* Bottom */}
-        <div className="mt-12 sm:mt-16 pt-6 border-t border-cyan-400/10 flex flex-col md:flex-row items-center justify-between gap-4">
+   {/* Premium Glowing Divider */}
+<div className="relative mt-4 mb-4">
+
+  {/* Main Line */}
+  <div className="relative h-px w-full bg-gradient-to-r from-transparent via-cyan-400/80 to-transparent"></div>
+
+  {/* Center Glow */}
+  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-52 h-6 bg-cyan-400/40 blur-2xl"></div>
+
+  {/* Left Glow */}
+  <div className="absolute left-0 top-1/2 -translate-y-1/2 w-32 h-8 bg-cyan-500/20 blur-3xl"></div>
+
+  {/* Right Glow */}
+  <div className="absolute right-0 top-1/2 -translate-y-1/2 w-32 h-8 bg-cyan-500/20 blur-3xl"></div>
+
+</div>
+
+{/* Bottom */}
+<div className="pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-gray-500 text-xs sm:text-sm text-center md:text-left">
             © {new Date().getFullYear()} Keyword AI Solution.
