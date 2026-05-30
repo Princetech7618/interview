@@ -35,9 +35,9 @@ export default function Footer() {
       className="object-cover w-full h-full"
     />
   </div>
-  {/* <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
-    Kewyword AI
-  </h1> */}
+  <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
+    Keyword AI
+  </h1>
 </Link>
 
             <p className="text-gray-400 mt-5 leading-relaxed text-sm sm:text-base">
@@ -196,7 +196,7 @@ export default function Footer() {
         <div className="mt-12 sm:mt-16 pt-6 border-t border-cyan-400/10 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-gray-500 text-xs sm:text-sm text-center md:text-left">
-            © {new Date().getFullYear()} Kewyword AI Solution.
+            © {new Date().getFullYear()} Keyword AI Solution.
             All Rights Reserved.
           </p>
 

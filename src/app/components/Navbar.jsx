@@ -28,9 +28,9 @@ export default function Navbar() {
       className="object-cover w-full h-full"
     />
   </div>
-  {/* <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
-    Kewyword AI
-  </h1> */}
+  <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-cyan-500 to-cyan-500 bg-clip-text text-transparent cursor-pointer">
+    Keyword AI
+  </h1>
 </Link>
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-8 text-sm lg:text-base text-slate-700 font-medium">
